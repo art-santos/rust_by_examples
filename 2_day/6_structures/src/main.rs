@@ -20,4 +20,5 @@ fn family_struct() {
     };
 
     println!("Dad's Name: {} - Mom's name: {}", family_morisson.dad, family_morisson.mom);
+    //println!("{:#?}", family_morisson);
 }

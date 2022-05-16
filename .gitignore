@@ -1,13 +1,13 @@
-1_day/1_hello_world/target
-1_day/2_types/target
-1_day/3_control_flow/target
-1_day/4_while_loops/target
-1_day/5_functions/target
-2_day/6_structures/target
-2_day/7_references/target
-2_day/8_clone_types/target
-2_day/9_copy_types/target
-2_day/10_mutable_references/target
+01_day/01_hello_world/target
+01_day/02_types/target
+01_day/03_control_flow/target
+01_day/04_while_loops/target
+01_day/05_functions/target
+02_day/06_structures/target
+02_day/07_references/target
+02_day/08_clone_types/target
+02_day/09_copy_types/target
+02_day/10_mutable_references/target
 
 
 

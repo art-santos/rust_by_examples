@@ -9,8 +9,21 @@
 02_day/09_copy_types/target
 02_day/10_mutable_references/target
 02_day/11_methods/target
-
-
+03_day/12_constructors/target
+03_day/13_tuples/target
+03_day/14_enumerations/target
+04_day/18_patern_matching/target
+04_day/19_irrefutable_items/target
+04_day/20_traits/target
+04_day/21_constructors/target
+04_day/22_option_type/target
+04_day/23_arrays/target
+04_day/24_slices/target
+05_day/25_for_loops/target
+05_day/26_macros/target
+05_day/27_multiple_pattern_rules/target
+05_day/28_repetitions/target
+05_day/29_optional_quantifier/target
 
 
 

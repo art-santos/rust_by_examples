@@ -12,10 +12,13 @@
 03_day/12_constructors/target
 03_day/13_tuples/target
 03_day/14_enumerations/target
-04_day/18_patern_matching/target
-04_day/19_irrefutable_items/target
-04_day/20_traits/target
-04_day/21_constructors/target
+03_day/15_patern_matching/target
+03_day/16_irrefutable_patterns/target
+03_day/17_traits/target
+04_day/18_default_methods/target
+04_day/19_associated_types/target
+04_day/20_rules/target
+04_day/21_generics/target
 04_day/22_option_type/target
 04_day/23_arrays/target
 04_day/24_slices/target

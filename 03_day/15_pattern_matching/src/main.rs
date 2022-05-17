@@ -1,5 +1,6 @@
 fn main() {
     family_matches();
+    more_family_matches();
 }
 
 /**
@@ -37,4 +38,33 @@ fn family_matches(){
         FamilyMembers::Human(name) => println!(" - {} - ", name),
         FamilyMembers::Animal(name) => println!("{}", name),
     }
+}
+
+/*
+ * In the case bellow we're going to create a decoupled struture so we can
+ * use the same function to match different types of data.
+ * For doing so, i've created a new enum
+ * and then a function to print the desired log according to
+ * the type of data.
+ */
+
+fn more_family_matches(){
+    enum FamilyMembers{
+        Dad,
+        Mom,
+        Children,
+    }
+
+    fn print_family_member(family_members: FamilyMembers){
+
+        match family_members {
+            FamilyMembers::Dad => println!("Dad"),
+            FamilyMembers::Mom => println!("Mom"),
+            FamilyMembers::Children => println!("Children"),
+        }
+    }
+
+    print_family_member(FamilyMembers::Dad);
+    print_family_member(FamilyMembers::Mom);
+    print_family_member(FamilyMembers::Children);
 }

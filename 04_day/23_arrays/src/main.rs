@@ -6,7 +6,7 @@ fn main() {
 /*
  * Arrays are a collection of elements.
  * Different from tuples, arrays can contain different types.
- * And they do not have a fixed amount of values.
+ * And they have a fixed amount of values.
  */
 
 fn family_array(){

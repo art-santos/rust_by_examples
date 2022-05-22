@@ -5,11 +5,25 @@ fn main() {
 /*
  * Macro rules are a way to avoid code duplication 
  * by generating code at compile time.
+ * A very common macro we've been using for some time is 
+ * println!
  * 
+ * The terms macros refeer's itself to a family of 
+ * Rust terms.
+ * Declarative macros, expressed with macro_rules!
+ * and three kinds of precedural macros
+ * #[derive] - structs and enums
+ * Attribute - len()
+ * Function - println!
+ * 
+ * Fundamentally, macros are a way of
+ * writing code that writes other code,
+ * which is known as metaprogramming.
  * 
  */
 
 fn family_macros(){
+    
     trait BitSet {
         fn clear(&mut self, index: usize);
         fn is_set(&self, index: usize) -> bool;
@@ -22,7 +36,8 @@ fn family_macros(){
         }
         }
     }
-
+    
+    #[macro_export]
     macro_rules! int_bitset {
         ($ty: ty) => {
             impl BitSet for $ty {
